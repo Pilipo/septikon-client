@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch src/game.js",
+    "serve": "browser-sync start --server --unhandled-rejections=none --files '.'"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +14,5 @@
   "dependencies": {
     "phaser": "^3.52.0"
   },
-  "devDependencies": {
-    "parcel": "^2.0.0-beta.1"
-  }
+  "devDependencies": {}
 }
